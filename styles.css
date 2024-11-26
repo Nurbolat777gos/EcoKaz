@@ -1,0 +1,137 @@
+/* Жалпы стильдер */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f8f7;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header стилі */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Hero section */
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #4CAF50;
+}
+
+/* Жобалар мен жаңалықтар */
+.projects-preview, .news {
+    padding: 50px 30px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project-card, .news-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card h3, .news-item h3 {
+    color: #4CAF50;
+    font-size: 24px;
+}
+
+.project-card a, .news-item a {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+.project-card a:hover, .news-item a:hover {
+    text-decoration: underline;
+}
+
+/* Footer стилі */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container p {
+    font-size: 16px;
+}
